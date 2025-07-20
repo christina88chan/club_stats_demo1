@@ -2,9 +2,10 @@
 streamlit exploration demo
 
 ## Setup
-1. fork project
+1. fork project -> change prompt or displayed data
 2. download streamlit
 run python -m streamlit run club_stats.py
+3. ctrl-c to exit app
 
 ## How to use
 1. Make a copy of this Google Form
