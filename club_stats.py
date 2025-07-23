@@ -33,6 +33,8 @@ if uploaded_file is not None:
         df = pd.read_excel(uploaded_file)
 
     st.success("File uploaded successfully! Your dashboard is below.")
+    if st.button("Check dataframe uploaded"):
+        st.dataframe(df)
     st.divider()
 
     # ===== Data Analysis Container =====
